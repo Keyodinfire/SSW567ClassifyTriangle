@@ -1,0 +1,9 @@
+1. I did not really encounter many challenges while doing this assignment.
+I had to import two functions from the math library, sqrt and isclose, in order to account for Right Isosceles triangles.
+
+2. I thought that the requirements specifications for this project required me to think for a bit about how to correctly classify triangles and try to account for as many different types and combinations of dimensions as possible. 
+
+3. The base Python tools were incapable of helping properly classify each case of triangle, which is why I needed to import two functions from the math library: sqrt and isclose.
+I needed sqrt to check for Right Isosceles triangles, and the isclose function to check for Right Isosceles triangles in the if statements of the classify_triangle function.
+
+4. To determine that I had sufficient test cases, I decided to make test cases to cover as many different cases of triangles that I could think of. 
