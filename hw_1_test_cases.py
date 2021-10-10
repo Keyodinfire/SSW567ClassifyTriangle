@@ -16,6 +16,7 @@ class TestTriangles(unittest.TestCase):
     def test_set_1(self):
         '''first set of test cases'''
         self.assertEqual(classify_triangle(3,4,5),'Right Scalene','3,4,5 is a Right Scalene triangle')
+        self.assertEqual(classify_triangle(5, 4, 3),'Right Scalene','5,4,3 is a Right Scalene triangle')
 
     def test_my_test_set_2(self):
         '''second set of test cases'''
@@ -29,15 +30,4 @@ class TestTriangles(unittest.TestCase):
         self.assertEqual(classify_triangle(1, 1, sqrt(2)), 'Right Isosceles', 'Should be Right Isosceles')
 
 if __name__ == '__main__':
-    run_classify_triangle(1,2,3)
-    run_classify_triangle(1,1,1)
-    run_classify_triangle(5, 6, 17)
-    run_classify_triangle(10, 15, 20)
-    run_classify_triangle(1.1, 1.1, 1.1)
-    run_classify_triangle(2.5, 3.7, 5)
-    run_classify_triangle(14, 15, 16)
-    run_classify_triangle(1.5, 1.5, 2.5)
-    run_classify_triangle(8, 8, sqrt(128))
-    run_classify_triangle(6, 8, 10)
-
     unittest.main(exit=True)
